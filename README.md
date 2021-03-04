@@ -39,63 +39,71 @@ Vous pouvez vous référer aux liens présent dans le README de https://github.c
      - [ ] Utiliser un objet de type LiveData
      - [ ] Ne pas avoir des composants distincts s'appuyant sur la même donnée
 
-  2.  : 
+  6. Manifest : 
      - [ ] 
      - [ ] 
      - [ ] 
      - [ ] 
 
-  2.  : 
+  7. Build : 
      - [ ] 
      - [ ] 
      - [ ] 
      - [ ] 
 
-  2.  : 
+  8. Resources : 
      - [ ] 
      - [ ] 
      - [ ] 
      - [ ] 
 
-  2.  : 
+  9. Traduction : 
      - [ ] 
      - [ ] 
      - [ ] 
      - [ ] 
 
-  2.  : 
+  10. Permissions : 
      - [ ] 
      - [ ] 
      - [ ] 
      - [ ] 
 
-  2.  : 
+  11. Firebase : 
      - [ ] 
      - [ ] 
      - [ ] 
      - [ ] 
 
-  2.  : 
+  12. Admob : 
      - [ ] 
      - [ ] 
      - [ ] 
      - [ ] 
 
-  2.  : 
+  13. Layout : 
      - [ ] 
      - [ ] 
      - [ ] 
      - [ ] 
 
 
-  2.  : 
+  14. Licenses : 
      - [ ] 
      - [ ] 
      - [ ] 
      - [ ] 
 
-  2.  : 
+
+  15. Android x : 
      - [ ] 
      - [ ] 
      - [ ] 
      - [ ] 
+
+## Questions libres
+
+  1. Je souhaite lancer un téléchargement volumineux en permettant à l'utilisateur de continuer d'utiliser mon application ou de la quitter, sans que le téléchargement ne soit interrompu ni que l'utilisateur ne soit bloqué sur une popup de chargement, comment devrais-je m'y prendre ?
+
+
+  2. Si je devais refaire l'application du TP à partir de zéro, qu'est-ce que je changerais ??
