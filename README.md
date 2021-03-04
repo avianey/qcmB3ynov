@@ -24,6 +24,7 @@ Vous pouvez vous référer aux liens présent dans le README de https://github.c
      - [ ] une classe Activity personnalisée
      - [ ] une classe Service personnalisée
      - [ ] une classe Fragment personnalisée
+     - [ ] un burrin et un marteau
      - [ ] une classe Drawable personnalisée
      - [ ] une classe AsyncTask personnalisée
 
@@ -71,6 +72,7 @@ Vous pouvez vous référer aux liens présent dans le README de https://github.c
      - [ ] N'importe quelle application Android peut accéder à la localisation GPS du téléphone en en informant l'utilisateur
      - [ ] N'importe quelle application peut connaitre approximativement la localisation du téléphone sans que l'utilisateur en soit informé
      - [ ] Je dois faire valider mon application par Google pour pouvoir accéder à la localisation de l'utilisateur dans mon application
+     - [ ] Un téléphone Android c'est vachement mieux qu'un iPhone
 
   11. Firebase est un outil permettant de : 
      - [ ] D'obtenir des statistiques sur l'usage faite de mon application Android par les utilisateurs de celle-ci
