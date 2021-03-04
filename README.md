@@ -68,45 +68,45 @@ Vous pouvez vous référer aux liens présent dans le README de https://github.c
      - [ ] l'application met à jour son status Facebook
 
   10. Laquelle (lesquelles) de ces affirmations sont fausses (pour les téléphones récents) : 
-     - [ ] N'importe quelle application Android peut accéder à la localisation GPS du téléphone sans que l'utilisateur en soit informé
-     - [ ] N'importe quelle application Android peut accéder à la localisation GPS du téléphone en en informant l'utilisateur
-     - [ ] N'importe quelle application peut connaitre approximativement la localisation du téléphone sans que l'utilisateur en soit informé
-     - [ ] Je dois faire valider mon application par Google pour pouvoir accéder à la localisation de l'utilisateur dans mon application
-     - [ ] Un téléphone Android c'est vachement mieux qu'un iPhone
+      - [ ] N'importe quelle application Android peut accéder à la localisation GPS du téléphone sans que l'utilisateur en soit informé
+      - [ ] N'importe quelle application Android peut accéder à la localisation GPS du téléphone en en informant l'utilisateur
+      - [ ] N'importe quelle application peut connaitre approximativement la localisation du téléphone sans que l'utilisateur en soit informé
+      - [ ] Je dois faire valider mon application par Google pour pouvoir accéder à la localisation de l'utilisateur dans mon application
+      - [ ] Un téléphone Android c'est vachement mieux qu'un iPhone
 
   11. Firebase est un outil permettant de : 
-     - [ ] D'obtenir des statistiques sur l'usage faite de mon application Android par les utilisateurs de celle-ci
-     - [ ] De mettre à disposition mon application
-     - [ ] De chercher des applications à télécharger pour mon téléphone
-     - [ ] D'obtenir des analyses sur les problèmes liés à l'utilisation de mon application
+      - [ ] D'obtenir des statistiques sur l'usage faite de mon application Android par les utilisateurs de celle-ci
+      - [ ] De mettre à disposition mon application
+      - [ ] De chercher des applications à télécharger pour mon téléphone
+      - [ ] D'obtenir des analyses sur les problèmes liés à l'utilisation de mon application
 
   12. A quoi un `Intent` sert-il dans une application Android : 
-     - [ ] à démarrer un `Activity`
-     - [ ] à démarrer un `Service`
-     - [ ] à arrêter un `Service`
-     - [ ] à demander des mises à jour régulières au Système Android
-     - [ ] à demarrer une autre Application sur le téléphone
-     - [ ] à démarrer un `Fragment`
+      - [ ] à démarrer un `Activity`
+      - [ ] à démarrer un `Service`
+      - [ ] à arrêter un `Service`
+      - [ ] à demander des mises à jour régulières au Système Android
+      - [ ] à demarrer une autre Application sur le téléphone
+      - [ ] à démarrer un `Fragment`
 
   13. Indiquez si les affirmations suivantes concernant les `layout` et `ViewGroup` sont vraies : 
-     - [ ] Ce sont des endroits où les `View` se réunissent pour jouer à la belotte
-     - [ ] Ils disposent d'un cycle de vie comme les `Fragment` et `Activity`
-     - [ ] Je peux en crééer des personnalisés selon mes besoins
-     - [ ] Ils peuvent eux même contenir des `layout` et `ViewGroup` qui eux même...
+      - [ ] Ce sont des endroits où les `View` se réunissent pour jouer à la belotte
+      - [ ] Ils disposent d'un cycle de vie comme les `Fragment` et `Activity`
+      - [ ] Je peux en crééer des personnalisés selon mes besoins
+      - [ ] Ils peuvent eux même contenir des `layout` et `ViewGroup` qui eux même...
 
   14. Je souhaite copier le code d'une application open-source pour la modifier et en faire ma propre application à code source fermé, quelle(s) license(s) puis-je utiliser : 
-     - [ ] MIT
-     - [ ] Apache 2
-     - [ ] GPL
-     - [ ] LGPL
-     - [ ] La license IV
-     - [ ] BSD
+      - [ ] MIT
+      - [ ] Apache 2
+      - [ ] GPL
+      - [ ] LGPL
+      - [ ] La license IV
+      - [ ] BSD
 
   15. Qu'est-ce qu'`androidx` : 
-     - [ ] Une faute de frappe
-     - [ ] Un ensemble de librairies supplémentaires maintenue par Google pour faciliter le développement d'applications
-     - [ ] La prochaine version d'Android
-     - [ ] Le package qui regroupe les API obsolètes qui ne doivent pas être utilisées par les développeurs d'applications
+      - [ ] Une faute de frappe
+      - [ ] Un ensemble de librairies supplémentaires maintenue par Google pour faciliter le développement d'applications
+      - [ ] La prochaine version d'Android
+      - [ ] Le package qui regroupe les API obsolètes qui ne doivent pas être utilisées par les développeurs d'applications
 
 ## Questions libres
 
