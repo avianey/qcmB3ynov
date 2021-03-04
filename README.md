@@ -13,7 +13,7 @@ Vous pouvez vous référer aux liens présent dans le README de https://github.c
      - [ ] une class Service
      - [ ] une class ContentProvider
 
-  2. Classez les éléments ci dessous dans l'ordre dans lequel ils sont créés par le Système lors du démarrage d'une application (du premier à être créé au dernier) : 
+  2. Classez les éléments ci dessous dans l'ordre dans lequel ils sont créés/instantiés par le Système lors du démarrage d'une application (du premier à être créé au dernier) : 
      - Activity 
      - Application
      - Fragment
@@ -39,67 +39,72 @@ Vous pouvez vous référer aux liens présent dans le README de https://github.c
      - [ ] Utiliser un objet de type LiveData
      - [ ] Ne pas avoir des composants distincts s'appuyant sur la même donnée
 
-  6. Manifest : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
+  6. Laquelle (lesquelles) de ces affirmations concernant le AndroidManifest.xml est vraie : 
+     - [ ] Je DOIT y déclarer TOUTES les activités de mon application
+     - [ ] Je DOIT y déclarer TOUTES les permissions que je souhaite utiliser
+     - [ ] C'est le seul endroit où je peux déclarer l'icône utilisée par mon application 
+     - [ ] C'est le seul endroit où je peux indiquer le point d'entrée de mon application
+     - [ ] Si je veux utiliser une classe Application personnalisée, je DOIT la déclarer à cet endroit
+     - [ ] Je peux y définir des meta-données qui seront accessible dans mon application
 
-  7. Build : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
+  7. Le(s)quel(s) de ces éléments est (sont) généré(s) par le plugin gradle au moment du build de l'application : 
+     - [ ] une classe `R` dans un package dont le nom correspond à la valeur de la clé `applicationId` de mon `build.gradle`
+     - [ ] une classe `BuildConfig` dans un package dont le nom correspond à la valeur de la clé `applicationId` de mon `build.gradle`
+     - [ ] une classe par fichier xml du répertoire `src/main/res/layout`
+     - [ ] un entier permettant d'identifier de façon unique les vues de mes layout
 
-  8. Resources : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
+  8. Comment dois-je m'y prendre pour afficher une interface graphique adaptable à des configurations d'écran différentes selon les téléphones (tailles, densité de pixels, formes), cocher les méthodes adaptées : 
+     - [ ] Utiliser des répertoires de resources adaptés et y placer des images de tailles et formes différentes
+     - [ ] Utiliser une classe Drawable personnalisée
+     - [ ] Utiliser des VectorDrawable
+     - [ ] Utiliser des Layout différents en fonction de la taille de l'écran
 
-  9. Traduction : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
+  9. Laquelle (lesquelles) de ces affirmations concernant une application quitté par son utilisateur est (sont) vraie(s) : 
+     - [ ] les méthodes `onPause` de toutes les `Activity` déclarées dans le fichier `AndroidManifest.xml` sont appelées
+     - [ ] les méthodes `onDestroy` de tous les `Service` actifs sont appelées
+     - [ ] les méthodes `onStop` de toutes les `Activity` actives sont appelées
+     - [ ] l'instance de la classe `Application` est supprimée
+     - [ ] l'application met à jour son status Facebook
 
-  10. Permissions : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
+  10. Laquelle (lesquelles) de ces affirmations sont fausses (pour les téléphones récents) : 
+     - [ ] N'importe quelle application Android peut accéder à la localisation GPS du téléphone sans que l'utilisateur en soit informé
+     - [ ] N'importe quelle application Android peut accéder à la localisation GPS du téléphone en en informant l'utilisateur
+     - [ ] N'importe quelle application peut connaitre approximativement la localisation du téléphone sans que l'utilisateur en soit informé
+     - [ ] Je dois faire valider mon application par Google pour pouvoir accéder à la localisation de l'utilisateur dans mon application
 
-  11. Firebase : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
+  11. Firebase est un outil permettant de : 
+     - [ ] D'obtenir des statistiques sur l'usage faite de mon application Android par les utilisateurs de celle-ci
+     - [ ] De mettre à disposition mon application
+     - [ ] De chercher des applications à télécharger pour mon téléphone
+     - [ ] D'obtenir des analyses sur les problèmes liés à l'utilisation de mon application
 
-  12. Admob : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
+  12. A quoi un `Intent` sert-il dans une application Android : 
+     - [ ] à démarrer un `Activity`
+     - [ ] à démarrer un `Service`
+     - [ ] à arrêter un `Service`
+     - [ ] à demander des mises à jour régulières au Système Android
+     - [ ] à demarrer une autre Application sur le téléphone
+     - [ ] à démarrer un `Fragment`
 
-  13. Layout : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
+  13. Indiquez si les affirmations suivantes concernant les `layout` et `ViewGroup` sont vraies : 
+     - [ ] Ce sont des endroits où les `View` se réunissent pour jouer à la belotte
+     - [ ] Ils disposent d'un cycle de vie comme les `Fragment` et `Activity`
+     - [ ] Je peux en crééer des personnalisés selon mes besoins
+     - [ ] Ils peuvent eux même contenir des `layout` et `ViewGroup` qui eux même...
 
+  14. Je souhaite copier le code d'une application open-source pour la modifier et en faire ma propre application à code source fermé, quelle(s) license(s) puis-je utiliser : 
+     - [ ] MIT
+     - [ ] Apache 2
+     - [ ] GPL
+     - [ ] LGPL
+     - [ ] La license IV
+     - [ ] BSD
 
-  14. Licenses : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-
-
-  15. Android x : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
+  15. Qu'est-ce qu'`androidx` : 
+     - [ ] Une faute de frappe
+     - [ ] Un ensemble de librairies supplémentaires maintenue par Google pour faciliter le développement d'applications
+     - [ ] La prochaine version d'Android
+     - [ ] Le package qui regroupe les API obsolètes qui ne doivent pas être utilisées par les développeurs d'applications
 
 ## Questions libres
 
