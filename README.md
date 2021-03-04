@@ -3,6 +3,7 @@
 Merci de modifier ce fichier en cochant la (les) bonne(s) réponse(s).
 Pour les questions sans choix, écrire directement en dessous de la question.
 Pour cocher une case remplacer `- [ ]` par `- [x]`
+Vous pouvez vous référer aux liens présent dans le README de https://github.com/avianey/SoundMeter
 
 ## QCM
 
@@ -18,7 +19,7 @@ Pour cocher une case remplacer `- [ ]` par `- [x]`
      - Fragment
      - ContentProvider
 
-  2. Je souhaite crééer des éléments d'UI réutilisables au sein de mon application, quel(s) élément(s) parmis ceux ci dessous sont adapté(s) : 
+  3. Je souhaite crééer des éléments d'UI réutilisables au sein de mon application, quel(s) élément(s) parmis ceux ci dessous sont adapté(s) : 
      - [ ] une classe View personnalisée
      - [ ] une classe Activity personnalisée
      - [ ] une classe Service personnalisée
@@ -26,17 +27,17 @@ Pour cocher une case remplacer `- [ ]` par `- [x]`
      - [ ] une classe Drawable personnalisée
      - [ ] une classe AsyncTask personnalisée
 
-  2.  : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
+  4. Parmis les possibilités suivants d'une Activity, le(s)quelle(s) est (sont) recommandée(s) à la gestion/sauvegarde/restauration de l'état des variables de mon activité : 
+     - [ ] dans la méthode `onCreate` en utilisant le Bundle passé en argument
+     - [ ] en utilisant une base de données et en y récupérant les données dans la méthode `onStart`
+     - [ ] en utilisant un objet `SharedPreference` dans le constructeur de mon Activity
+     - [ ] en utilisant un `ContentProvider` pour récupérer les données dans la méthode `onResume`
 
-  2.  : 
-     - [ ] 
-     - [ ] 
-     - [ ] 
-     - [ ] 
+  5. Quelle(s) méthode(s) est (sont) adaptées pour résoudre les problèmes de partage d'une données entre composants d'UI ayant des cycles de vie indépendants (faire en sorte que la modification de la valeur soit répercutée dans tous les composants s'appuyant dessus pour l'affichage de leur UI) : 
+     - [ ] Le reactive programming en utilisant la librairie Rx
+     - [ ] un `java.lang.Observable` positionné au niveau de la classe Application
+     - [ ] Utiliser un objet de type LiveData
+     - [ ] Ne pas avoir des composants distincts s'appuyant sur la même donnée
 
   2.  : 
      - [ ] 
